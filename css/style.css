@@ -19,7 +19,8 @@ header{
 }
 .logo{
     font-size: 30px;
-    color: rgb(126, 123, 123);
+    color: #c5c5c5;
+    font-family: 'Carter One', cursive;
     
 }
 .menu img{
@@ -360,12 +361,13 @@ font-family: 'Open Sans', sans-serif;
     font-weight:400;
     font-family: 'Roboto', sans-serif;
 }
-.plumbering-text h6{
+.plumber h6{
     font-size: 22px;
     font-weight: 100;
     font-family: 'Roboto condensed', sans-serif;
 
 }
+
 
 .professional{
  background-color: white;
@@ -529,24 +531,44 @@ footer{
         padding-right: 40px;
     } 
     .plumbering-img .one{
-        width: 300px;
-        height: 250px;
+        width: 305px;
+        height: 290px;
     }
     .plumbering-img .two{
-        width: 300px;
-        height: 250px;
+        width: 305px;
+        height: 290px;
     }
     .plumbering-img .three{
-        width: 300px;
-        height: 250px;
+        
+        width: 305px;
+        height: 290px;
     }
     .plumbering-img .four{
-        width: 300px;
-        height: 250px;
+        width: 305px;
+        height: 290px;
     }
     .plumber{
         flex-direction: column;
     }
+    .plumbering-img{
+        margin-right: 0;
+    }
+    .plumbering-text{
+        flex-direction: row;
+    }
+    .plumbering-text h2{
+        font-size: 65px;
+        padding-right: 15px;
+        padding-left: 20px;
+    }
+    .plumbering-text h1{
+        font-size: 65px;
+    }
+    .plumber h6{
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+    
 }
 @media(max-width:430px){
     .hero{
