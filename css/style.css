@@ -535,6 +535,10 @@ footer{
         font-family: 'Roboto condensed', sans-serif;
     
     }
+    .best-quality hr {
+        width: 480px;
+    }
+
     
 }
 @media(max-width:780px){
