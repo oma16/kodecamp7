@@ -10,11 +10,12 @@ main{
     box-sizing: content-box;
 }
 body{
-  width: 100%;
+    width: 100vw;
+    display: block;
 }
 header{
-     
-    background-color: white;
+     width: 100vw;
+      background-color: white;
     
 }
 .navbar{
@@ -45,6 +46,7 @@ header{
     background-repeat: no-repeat;
     background-color: rgb(247, 234, 234);
     height: 800px;
+    width: 100vw;
 
 }
 .hero-text hr{
@@ -91,6 +93,7 @@ header{
     
 }
 .services{
+    width: 100vw;
     background-color:#f2f2f2;
     
 }
@@ -140,6 +143,7 @@ header{
     font-family: 'Open sans', sans-serif;
 }
 .help{
+    width: 100vw;
     background-color: white;
     
 }
@@ -186,6 +190,7 @@ header{
     align-items: center;
 }
 .quality{
+    width: 100vw;
     background-color:#d8d6db;
 
 }
@@ -240,6 +245,7 @@ line-height: 30px;
 font-family: 'Open Sans', sans-serif;
 }
 .work{
+    width: 100vw;
     background-color: white;
 }
 .repairman{
@@ -297,6 +303,7 @@ font-family: 'Open Sans', sans-serif;
 
 }
 .plumbering{
+    width: 100vw;
     background-color: #104e92;
 }
 .plumbering-img .one{
@@ -379,6 +386,7 @@ font-family: 'Open Sans', sans-serif;
 
 
 .professional{
+    width: 100vw;
  background-color: white;
 }
 .professional .container{
@@ -392,6 +400,7 @@ font-family: 'Open Sans', sans-serif;
     text-align: center;
     width: 700px;
     margin-bottom: 30px;
+    margin-top: 40px;
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
 }
@@ -437,6 +446,7 @@ font-family: 'Open Sans', sans-serif;
 footer{
     background-color: #333333;
     color: white;
+    width: 100vw;
 }
 .footer{
     display: flex;
@@ -461,12 +471,12 @@ footer{
     color: #52a0eb;
 }
 @media(max-width:780px){
-    body {
-       width: 927px;
-    }
+    
     .hero{
-        height: 556px;
+    
+        height: 600px;
     }
+    
     .hero .container{
         padding-top: 190px;
     }
@@ -493,15 +503,14 @@ footer{
     }
     .service-text{
         width: 680px;
+        font-weight: 400;
     }
     .help .container{
         flex-direction: column;
     }
     .repair img{
-        transform: scale(1);
-        height: 350px;
-        width: 650px;
-
+        height: 310px;
+        width: 668px;
     }
     .repair-text{
         width: 700px;
@@ -510,42 +519,59 @@ footer{
         padding-left:  8%;
     }
     .repair-help h2{
-        font-size: 33px;
-        padding-left: 70px;
+        font-size: 34px;
+        
     }
     .repair-help p{
         font-size: 30px;
-        padding-left: 70px;
+        
     }
 
     .repair-help img{
-        transform: scale(1);
-        height: 350px;
-        width: 700px;
-        padding-right: 80px;
+        height: 298px;
+        width: 667px;
+        margin-left : -30px;
 
-        padding-left: 30px;
-        margin-right: 200px;
-
+    }
+    .best-quality {
+        position: absolute;
+         margin-top: 110px;
+    /* margin-left: 225px; */
+        background-color: #d8d6db;
+    /* margin-right: 96px; */
+         padding: 31px;
+         right: -19px;
+    /* bottom: 2px;*/
     }
     .best-quality h1{
         font-size: 40px;
         width: 30px;
     }
     .best-quality hr{
-        width: 250px;
+        width: 316px;
     }
     .best-quality p{
         width: 350px;
     }
     .quality .container img{
-        width: 301px;
-        height: 600px;
-        margin-right: 0;
+        width: 382px;
+        height: 587px;
+        margin-left: -309px;
+    }
+    .quality .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 0;
     }
     .painting p, .electrical p, .repairs p{
-        padding-right: 40px;
+    
         font-size: 18px;
+        width: 187px;
+    } 
+    .painting , .electrical , .repairs {
+        padding-right: 40px;
+        
     } 
     .plumbering-img .one{
         width: 300px;
@@ -586,7 +612,7 @@ footer{
         
     }
     .plumbering-text h6{
-        padding-left: 83px;
+        padding-left: 19px;
         padding-top: 30px;
     }
     .professional .container h1{
@@ -604,108 +630,128 @@ footer{
     
 }
 @media(max-width:430px){
-    body {
-        width: 740px;
-    }
+    
     .hero{
         background-position:right;
         background-size:cover;
-        width: 820px;
-        height: 975px;
-      
+width: 100vw;
+    
         
+    }
+    .hero .container{
+        padding-top: 250px;
     }
     .tool{
         display: none;
 
     }
     .hero-text{
-        padding-top: 480px;
+        padding-top: 190px;
     }
     .hero-text h4{
-        font-size: 62px;
+        font-size: 28px;
 
     }
     .hero-text h1{
-        font-size: 93px;
+        font-size: 43px;
     }
     .hero-text hr{
-        width: 536px;
+        width: 260px;
+        height: 10px;
     }
-    .services{
-        width: 720px;
-    }
+    
     .service-head{
-        font-size: 32px;
+        font-size: 24px;
         font-weight: 300px;
     }
     .service h2{
-        font-size: 70px;
-        width: 482px;
+        font-size: 40px;
+        width: 282px;
         text-align: center;
     }
     .service-text{
-        width: 570px;
-        font-size: 34px;
+        width: 283px;
+        font-size: 18px;
         font-weight: 400;
+        line-height: 30px;
     }
     .service button{
-        width: 226px;
-        height: 97px;
-        font-size: 30px;
+        width: 131px;
+    height: 55px;
+    font-size: 15px;
     }
-    .help .container{
-        width: 600px;
-    }
+    
     .repair img{
-        height: 507px;
-        width: 562px;
-        margin-top: 60px;
+        height: 345px;
+    width: 353px;
+    margin-top: 40px;
+    margin-right: -41px;
+
     }
     .repair-text{
-        width: 550px;
-        font-size: 24px;
-        line-height: 40px;
+        width: 403px;
+        font-size: 17px;
+        line-height: 30px;
+        padding-left: 53px;
     }
-    .repair-help p,.repair-help h2{
-        padding-left: 70px;
+    .repair-help p{
+        padding-left: 20px;
+        font-size: 24px;
+    }
+    .repair-help h2{
+        padding-left: 20px;
+        font-size: 27px;
     }
     .repair-help img{
-        height: 516px;
-        width: 649px;
-        margin-left: 21px;
+        height: 335px;
+        width: 348px;
+        margin-right: 228px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 16px;
     }
-    .quality{
-        width: 721px;
     }
+    
     .quality .container{
         flex-direction: column;
         align-items: center;
         padding-bottom: 50px;
     }
+    .best-quality {
+        position:static;
+         margin-top: 110px;
+    /* margin-left: 225px; */
+        background-color: none;
+    /* margin-right: 96px; */
+         padding: 31px;
+         right: -19px;
+    /* bottom: 2px;*/
+    }
+    .quality .container img {
+        
+        margin-left: 36px;
+    }
     .best-quality h1{
-        font-size: 80px;
-        width: 550px;
+        font-size: 50px;
+        width: 250px;
     }
     .best-quality hr{
-        width: 494px;
-        height: 13px;
+        width: 283px;
+        height: 10px;
     }
     .best-quality p {
-        width: 503px;
-        font-size: 28px;
-        line-height: 40px;
+        width: 306px;
+        font-size: 16px;
+        line-height: 30px;
     }
     .best-quality button {
         
-        width: 235px;
-        height: 92px;
-        font-size: 29px;
+        width: 135px;
+        height: 62px;
+        font-size: 19px;
         
     }
-    .work{
-        width: 800px;
-    }
+    
     .work .container{
         align-items: center;
     }
@@ -713,96 +759,98 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-right: 250px;
+        padding-right: 10px;
+        padding-left: 30px;
     }
     .work .container h2 {
-        font-size: 72px;
-        margin-right: 191px;
+        font-size: 35px;
+        margin-right: 95px;
     }
     .repairman{
-        width: 140px;
-        height: 140px;
+        width: 70px;
+        height: 70px;
     }
     .repairman img {
-        width: 100px;
-        height: 83px;
+        width: 50px;
+        height: 43px;
     }
     .painting h4, .electrical h4, .repairs h4 {
-        font-size: 33px;
+        font-size: 23px;
     }
     .painting p, .electrical p, .repairs p {
-        font-size: 31px;
-        width: 606px;
-        line-height: 40px;
+        font-size: 17px;
+    width: 340px;
+    line-height: 25px;
     }
     .painting, .electrical, .repairs{
         margin-bottom: 80px;
     }
-    .plumbering {
     
-        width: 743px;
-    }
     .plumbering-text{
         margin-top: 80px;
     }
     .plumbering-text h6{
-        font-size: 31px;
+        font-size: 22px;
+        padding-left: 0;
     }
     .plumbering-text .plum  {
         flex-direction: column;
     }
     .plumbering-text .plum h2,.plumbering-text .plum h1 {
-        font-size: 100px;
+        font-size: 50px;
+        padding: 0;
         
     }
     .plumbering-img .one,.plumbering-img .two,.plumbering-img .three,.plumbering-img .four{
-        width: 583px;
-        height: 438px;
-        margin:30px 0;
+        width: 306px;
+        height: 238px;
+        margin:15px 0;
     }
     .plumbering-img {
-        margin-right: 30px;
+        margin-right: 15px;
         flex-direction: column;
         
     }
     
-    .professional{
-        width: 700px;
-    }
+    
     .professional .container h1 {
-        width: 624px;
-        font-size: 52px;
+        width: 397px;
+        font-size: 32px;
         margin-top: 40px;
     }
     .professional .container p {
-        width: 575px;
-        font-size: 54px;
-        line-height: 80px;
+        width: 299px;
+        font-size: 27px;
+        line-height: 40px;
     }
     .call{
         flex-direction: column;
     }
     .call .btn {
         
-        width: 335px;
-        height: 91px;
-        font-size: 28px;
-        margin-bottom: 50px;
-        margin-top: 100px;
+        width: 165px;
+        height: 55px;
+        font-size: 19px;
+        margin-bottom: 30px;
+        margin-top: 70px;
        
     }
     .call .call-us{
-        width: 335px;
-        height: 91px;
-        font-size: 28px;
-        margin-bottom: 100px;
-        margin-top: 50px;
+        width: 165px;
+        height: 55px;
+        font-size: 19px;
+        margin-bottom: 70px;
+        margin-top: 30px;
     }
-    footer{
-        width:700px;
+    
+    .footer-copy {
+        font-size: 11px;
+    width: 250px;
+    margin-left: 80px;
     }
-    header{
-        width: 700px;
+    .footer-text {
+        font-size: 12px;
+    width: 315px;
     }
     
 }
