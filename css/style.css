@@ -7,15 +7,11 @@ main{
     display: flex;
     flex-direction: column;
     justify-content:center ;
-    box-sizing: content-box;
-}
-body{
-    width: 100vw;
-    display: block;
+    
 }
 header{
-     width: 100vw;
-      background-color: white;
+     width: 100%;
+    background-color: white;
     
 }
 .navbar{
@@ -795,7 +791,7 @@ footer{
     .best-quality {
         position:static;
          margin-top: 110px;
-         margin-left: 46px; 
+         margin-right: 25px; 
         padding: 31px;
          right: -19px;
     
@@ -879,12 +875,14 @@ footer{
         
     }
     .plumbering-img .one,.plumbering-img .two,.plumbering-img .three,.plumbering-img .four{
-        width: 306px;
-        height: 238px;
+        width: 266px;
+        height: 208px;
+    
         margin:15px 0;
     }
     .plumbering-img {
-        margin-left: 54px;
+        margin-left: 26px;
+        width: 380px;
         flex-direction: column;
         
     }
