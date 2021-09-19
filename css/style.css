@@ -859,6 +859,7 @@ footer{
     
     .plumbering-text{
         margin-top: 80px;
+        padding-left: 59px;
     }
     .plumbering-text h6{
         font-size: 22px;
@@ -868,7 +869,7 @@ footer{
         flex-direction: column;
     }
     .plumbering-text .plum h2,.plumbering-text .plum h1 {
-        font-size: 50px;
+        font-size: 55px;
         padding: 0;
         margin-left: 0;
         
@@ -879,7 +880,7 @@ footer{
         margin:15px 0;
     }
     .plumbering-img {
-        margin-right: 15px;
+        margin-left: 54px;
         flex-direction: column;
         
     }
