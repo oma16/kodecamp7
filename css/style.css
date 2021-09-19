@@ -685,7 +685,7 @@ width: 100vw;
         height: 345px;
     width: 353px;
     margin-top: 40px;
-    margin-right: -41px;
+    margin-right: -9px;
 
     }
     .repair-text{
@@ -708,9 +708,9 @@ width: 100vw;
         margin-right: 228px;
         padding-left: 0;
         padding-right: 0;
-        margin-left: 16px;
+        margin-left: -1px;
     }
-    }
+    
     
     .quality .container{
         flex-direction: column;
@@ -721,7 +721,7 @@ width: 100vw;
         position:static;
          margin-top: 110px;
     /* margin-left: 225px; */
-        background-color: none;
+        background-color:none;
     /* margin-right: 96px; */
          padding: 31px;
          right: -19px;
